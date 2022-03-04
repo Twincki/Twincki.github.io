@@ -2,4 +2,4 @@
 
 Репозиторий создан для хранения свёрстанных тренировочных макетов в период обучения.
 
-Первый сайт: [Wordpress](https://Twincki.github.io/wordpress/)
+Первый сайт: [Wordpress](https://Twincki.github.io/wordpress/src/)
