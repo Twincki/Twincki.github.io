@@ -107,3 +107,60 @@ h2.title {
   margin: 0 auto;
   margin-top: 15px;
 }
+
+.waiting {
+  padding-top: 88px;
+  padding-bottom: 75px;
+  background: #efefef;
+}
+
+.waiting_header {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #252525;
+  opacity: 0.88;
+  text-align: center;
+}
+
+.waiting_divider {
+  width: 220px;
+  height: 7px;
+  background: #f9bf3b;
+  margin: 18px auto;
+}
+
+.waiting_subheader {
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting_wrapper {
+  margin-top: 45px;
+}
+
+.waiting_item {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  max-width: 342px;
+}
+
+.waiting_item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.waiting_text {
+  margin-top: 17px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting_img {
+  width: 100%;
+}
