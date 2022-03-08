@@ -220,7 +220,7 @@ h2.title {
   background-size: cover;
 }
 .finish_wrapper {
-  margin-top: 41px;
+  margin: 41px 430px 0 430px;
   display: flex;
   justify-content: space-between;
 }
