@@ -164,7 +164,7 @@ h2.title {
 }
 
 .optimization {
-  min-height: 550px;
+  min-height: 546px;
   padding-top: 100px;
   padding-bottom: 0 auto;
 }
@@ -246,4 +246,101 @@ h2.title {
   align-items: center;
   text-align: center;
   color: #efefef;
+}
+.gift {
+  padding: 88px 0;
+  background: #efefef;
+}
+
+.gift_icon {
+  margin: 0 auto;
+  margin-bottom: 45px;
+  width: 154px;
+  height: 174px;
+}
+.gift_text {
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #252525;
+  width: 1161px;
+  margin: 0 auto;
+}
+
+.gift_btn {
+  color: #ffffff;
+  margin: 51px auto 88px auto;
+  display: block;
+  padding: 25px 18px;
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 10px 5px 13px rgba(0, 0, 0, 0.22);
+  font-size: 21px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  outline: none;
+}
+.first_vebinar {
+  background: white;
+  padding-top: 90px;
+  padding-bottom: 51px;
+}
+.img_first_vebinar {
+  width: 342px;
+  height: 201px;
+  margin-bottom: 36px;
+  margin: auto;
+}
+.vebinar_header {
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252525;
+}
+.vebinar_time {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.vebinar_have_time {
+  margin-top: 24.5px;
+  font-weight: normal;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+}
+footer {
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.link_info {
+  text-align: center;
+  padding: 63px;
+  color: #888888;
+}
+
+.support {
+  color: #888888;
+}
+
+.politic {
+  color: #888888;
+}
+.underlined {
+  text-decoration-line: none;
+  font-weight: 300;
+  line-height: 35px;
+  color: #888888;
 }
