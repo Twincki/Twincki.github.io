@@ -183,7 +183,6 @@ h2.title {
   font-weight: 300;
   font-size: 17px;
   line-height: 27px;
-  align-items: center;
   color: #4a4a4a;
 }
 
@@ -239,11 +238,9 @@ h2.title {
 }
 .finish_descr {
   margin-top: 25px;
-  text-align: center;
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
-  align-items: center;
   text-align: center;
   color: #efefef;
 }
