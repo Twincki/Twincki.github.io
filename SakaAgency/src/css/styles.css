@@ -338,13 +338,14 @@ li {
 }
 
 .founder h2 {
+  margin-bottom: 50px;
   font-weight: 800;
   font-size: 50px;
   text-align: center;
   color: #ffffff;
 }
 
-.founder h4 {
+.founder h3 {
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -360,8 +361,52 @@ li {
 
 .founder_wrapper {
   display: flex;
-  align-items: center;
-  max-width: 413px;
+  justify-content: space-between;
+}
+
+.founder_doe_key img {
+  margin-bottom: 30px;
+}
+
+.founder_doe_key {
+  margin-left: 14px;
+  margin-right: 30px;
+  max-width: 284px;
+  min-height: 741px;
+}
+
+.founder_jhon_kekey img {
+  padding-top: 25px;
+}
+
+.founder_jhon_kekey {
+  margin-top: 45px;
+  margin-right: 14px;
+  max-width: 284px;
+  min-height: 741px;
+}
+
+.founder_text .jhon_doe {
+  margin-top: 205px;
+}
+
+.founder_text .jhon_key {
+  margin-top: 215px;
+}
+
+.founder_text {
+  white-space: pre-line;
+  text-align: right;
+}
+
+.founder_text_right .doe_jhon {
+  margin-bottom: 10px;
+  margin-top: 325px;
+}
+
+.founder_text_right .kekey {
+  margin-bottom: 10px;
+  margin-top: 195px;
 }
 
 .customer_wrapper {
@@ -543,4 +588,8 @@ hr {
 
 .footer_wrapper .social_icons {
   margin-top: 20px;
+}
+
+.footer_text {
+  max-width: 247px;
 }
