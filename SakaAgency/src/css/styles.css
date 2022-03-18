@@ -593,3 +593,27 @@ hr {
 .footer_text {
   max-width: 247px;
 }
+
+input {
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding: 10px;
+  min-height: 40px;
+  min-width: 255px;
+  border: 2px;
+  border-radius: 8px;
+  background-color: rgb(100, 100, 100);
+}
+
+input::-moz-placeholder {
+  color: #d9dbe1;
+}
+input::-webkit-input-placeholder {
+  color: #d9dbe1;
+}
+
+.footer_wrapper .send {
+  position: absolute;
+  margin-left: -34px;
+  margin-top: 11px;
+}
