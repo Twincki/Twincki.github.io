@@ -598,6 +598,7 @@ input {
   color: rgb(255, 255, 255);
   position: relative;
   padding: 10px;
+  padding-right: 45px;
   min-height: 40px;
   min-width: 255px;
   border: 2px;
