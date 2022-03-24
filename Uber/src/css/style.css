@@ -7,8 +7,11 @@ header {
 }
 
 header .navigation {
-  height: 50px;
   background-color: #212121;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
 }
 
 a {
@@ -20,6 +23,7 @@ a {
   font-size: 15px;
   color: #ffffff;
 }
+
 .menu .menu_item:hover {
   box-shadow: 1px 1px #1eabc754, 2px 2px #1eabc754, 3px 3px #1eabc754;
   -webkit-transform: translateX(-7px);
@@ -33,6 +37,7 @@ a {
   margin: 0;
   list-style-type: none;
 }
+
 .menu .menu_link {
   padding-right: 46px;
 }
@@ -44,6 +49,7 @@ a {
   transition: all 400ms ease;
 }
 .subheader {
+  margin-top: 50px;
   width: 100%;
   position: absolute;
   height: 90px;
