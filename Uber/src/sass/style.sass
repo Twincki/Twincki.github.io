@@ -32,7 +32,7 @@ a
 
 a:hover:after,
 a:focus:after
-  width: 105%
+  width: 100%
 
 .menu
   display: flex
@@ -448,10 +448,23 @@ a:focus:after
   min-height: 157px
   &_lengauge
     a
+      transition: all 500ms ease
       font-weight: 400
       font-size: 11px
       text-transform: uppercase
       color: #1FBAD6
+      &:after
+        content: ""
+        display: block
+        position: absolute
+        left: 45%
+        width: 0
+        height: 2px
+        background-color: #4ce2ff
+        transition: width 0.3s ease-out
+      &:hover:after,
+      &:focus:after
+        width: 10%
   &_line
     margin: 0 auto
     width: 301px
@@ -464,18 +477,44 @@ a:focus:after
     text-align: center
     &_up
       a
+        transition: all 500ms ease
         font-weight: 300
         font-size: 15px
         text-transform: uppercase
         color: #070716
+        &:hover
+          color: #1FBAD6
     &_up
       a:not(:last-child)
         padding-right: 45px
     &_btm
       a
+        transition: all 500ms ease
         font-weight: 300
         font-size: 11px
         text-transform: uppercase
         color: #999999
+        &:hover
+          color: #1FBAD6
       a:not(:last-child)
         padding-right: 22px
+
+.social
+  margin-top: -75px
+  margin-left: -80px
+  &_wrapper
+    display: flex
+    flex-direction: row
+  &_inner
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-right: 8px
+    list-style-type: none
+    min-width: 35px
+    min-height: 35px
+    background-color: #070716
+    border-radius: 100%
+    img
+      max-width: 19px
+      min-height: 19px
