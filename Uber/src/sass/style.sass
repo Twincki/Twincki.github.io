@@ -506,6 +506,7 @@ a:focus:after
     display: flex
     flex-direction: row
   &_inner
+    transition: all 500ms ease
     display: flex
     align-items: center
     justify-content: center
@@ -515,6 +516,8 @@ a:focus:after
     min-height: 35px
     background-color: #070716
     border-radius: 100%
+    &:hover
+      background-color: #1FBAD6
     img
       max-width: 19px
       min-height: 19px
