@@ -1,6 +1,5 @@
 header
   position: relative
-
   .navigation
     background-color: #212121f3
     position: fixed
@@ -11,12 +10,22 @@ header
 a
   text-decoration: none
 
+.hamburger
+  display: none
+
 .menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
   &_link
     position: relative
     font-weight: 300
     font-size: 15px
     color: #ffffff
+    &:hover
+      color: #ffffffd6
     &:after
       content: ""
       display: block
@@ -26,17 +35,9 @@ a
       height: 2px
       background-color: #4ce2ff
       transition: width 0.3s ease-out
-
-a:hover:after,
-a:focus:after
-  width: 100%
-
-.menu
-  display: flex
-  justify-content: space-between
-  padding: 13px 70px
-  margin: 0
-  list-style-type: none
+  a:hover:after,
+  a:focus:after
+    width: 100%
 
 .subheader
   margin-top: 50px
@@ -45,28 +46,24 @@ a:focus:after
   height: 90px
   background: rgba(0, 0, 0, 0.6)
   mix-blend-mode: normal
-
-  .subheader_logo
+  &_logo
     display: block
     margin-top: 16px
     max-width: 100%
-
-  .subheader_oficial
+  &_oficial
     font-weight: 100
     margin-top: 6px
     font-size: 13px
     color: #ffffff
     opacity: 0.6
-
-  .subheader_call
+  &_call
     margin-right: 18px
     margin-top: 24px
     font-weight: 300
     font-size: 12px
     text-align: right
     color: #ffffff
-
-  .subheader_phone
+  &_phone
     transition: all 500ms ease
     line-height: 25px
     margin-right: 18px
@@ -77,6 +74,7 @@ a:focus:after
     font-size: 22px
     color: #ffffff
     &:hover
+      color: #ffffff
       -webkit-transform: scale(1.2)
       -ms-transform: scale(1.2)
       transform: scale(1.2)
