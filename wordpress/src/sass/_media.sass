@@ -1,10 +1,10 @@
-ывапролддбьт 
-.promo
-  .container
-    .promo_text
-      font-size: 17px
-    .title
-      font-size: 25px
+@media (max-width : 1200px)
+  .promo
+    .container
+      .promo_text
+        font-size: 17px
+      .title
+        font-size: 25px
       &_big
         font-size: 45px
 
@@ -115,6 +115,7 @@
     &_descr
       margin-top: 10px
     &_wrapper
+      justify-content: center
       flex-wrap: wrap
     &_item
       padding-top: 35px
@@ -134,9 +135,12 @@
       font-size: 15px
 
   .first_vebinar
+    display: flex
+    justify-content: center
     padding-top: 0
     margin-top: 50px
     .img_first_vebinar
+      width: 100%
       img
         width: 285px
     .vebinar_header
