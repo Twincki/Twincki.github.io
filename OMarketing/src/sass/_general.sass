@@ -6,8 +6,13 @@
 ul
   list-style: none
 
+a
+  cursor: pointer
+
 .header
-  background-color: #ffffffda
+  width: 100%
+  position: fixed
+  background-color: #ffffffea
   .header_inner
     padding-bottom: 29px
     display: flex
@@ -32,13 +37,12 @@ ul
   background-position: center center
   background-repeat: no-repeat
   background-size: cover
-  min-height: 90vh
-  width: 100%
+  min-height: 100vh
   &_inner
     display: flex
     align-items: center
     flex-direction: column
-    min-height: 90vh
+    min-height: 91vh
   &_title
     margin-bottom: 18px
     margin-top: auto
@@ -53,3 +57,37 @@ ul
     letter-spacing: 2.74286px
   &_icon
     margin-bottom: 62px
+
+.about
+  padding: 150px 0 144px
+  min-height: 495px
+  background: #F6F8FA
+  &_inner
+    display: flex
+    justify-content: space-between
+  &_title
+    align-self: flex-start
+    font-weight: 700
+    font-size: 48px
+    line-height: 75px
+    font-size: 48px
+    letter-spacing: -1.65px
+    color: #242121
+    padding-bottom: 18px
+    position: relative
+    &::after
+      content: ""
+      position: absolute
+      width: 60px
+      height: 4px
+      background-color: #FCBB08
+      bottom: 0
+      left: 0
+  &_text
+    max-width: 770px
+    font-weight: 300
+    font-size: 14px
+    line-height: 24px
+    color: #373A39
+    p
+      margin-bottom: 16px
