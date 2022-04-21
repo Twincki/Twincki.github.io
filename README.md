@@ -8,4 +8,4 @@
 
 Третий сайт: [Uber](https://Twincki.github.io/Uber/src/)
 
-Четвёртый сайт: [OMarketing](https://Twincki.github.io/Omarketing/src/)
+Четвёртый сайт: [OMarketing](https://Twincki.github.io/OMarketing/src/)
