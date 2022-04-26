@@ -12,12 +12,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.min.css" />
     <title>OMarketing</title>
   </head>
   <body>
     <header class="header">
-        <div class="container">
+        <div class="container"> 
           <div class="header_inner">
             <a class="logo" href="#"
               ><img class="logo_img" src="icons/logo.svg" alt="logo"
@@ -145,22 +146,27 @@
   </div>
 
 <div class="portfolio_content">
-  <div class="portfolio_item mix category-a"><img src="img/portfolio/portfolio_1.jpg" alt="portfolio_1"></div>
-  <div class="portfolio_item mix category-a"><img src="img/portfolio/portfolio_2.jpg" alt="portfolio_2"></div>
-  <div class="portfolio_item mix category-a"><img src="img/portfolio/portfolio_3.jpg" alt="portfolio_3"></div>
-  <div class="portfolio_item mix category-b"><img src="img/portfolio/portfolio_4.jpg" alt="portfolio_4"></div>
-  <div class="portfolio_item mix category-b"><img src="img/portfolio/portfolio_5.jpg" alt="portfolio_5"></div>
-  <div class="portfolio_item mix category-b"><img src="img/portfolio/portfolio_6.jpg" alt="portfolio_6"></div>
-  <div class="portfolio_item mix category-c"><img src="img/portfolio/portfolio_7.jpg" alt="portfolio_7"></div>
-  <div class="portfolio_item mix category-c"><img src="img/portfolio/portfolio_8.jpg" alt="portfolio_8"></div>
-  <div class="portfolio_item mix category-d"><img src="img/portfolio/portfolio_9.jpg" alt="portfolio_9"></div>
+  
+  <div class="portfolio_item mix category-a"><img class="portfolio_item-img" src="img/portfolio/portfolio_1.jpg" alt="portfolio_1">
+  <a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+
+  <div class="portfolio_item mix category-a"><img class="portfolio_item-img" src="img/portfolio/portfolio_2.jpg" alt="portfolio_2"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-a"><img class="portfolio_item-img" src="img/portfolio/portfolio_3.jpg" alt="portfolio_3"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-b"><img class="portfolio_item-img" src="img/portfolio/portfolio_4.jpg" alt="portfolio_4"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-b"><img class="portfolio_item-img" src="img/portfolio/portfolio_5.jpg" alt="portfolio_5"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-b"><img class="portfolio_item-img" src="img/portfolio/portfolio_6.jpg" alt="portfolio_6"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-c"><img class="portfolio_item-img" src="img/portfolio/portfolio_7.jpg" alt="portfolio_7"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-c"><img class="portfolio_item-img" src="img/portfolio/portfolio_8.jpg" alt="portfolio_8"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
+  <div class="portfolio_item mix category-d"><img class="portfolio_item-img" src="img/portfolio/portfolio_9.jpg" alt="portfolio_9"><a class="portfolio_item-link" href="#">SHOW PROJECT</a></div>
 </div>
 
-<div><a class="portfolio_add" href="#">VIEW MORE PROJECTS</a></div>
+<a class="portfolio_add" href="#">VIEW MORE PROJECTS</a>
   <blockquote class="blockquote"> «Неважно какую историю вы рассказываете, главное –  сделайте своего покупателя героем»
 <span class="blockquote_author">Крис Броган</span></blockquote>
 
-<div class="portfolio_video"><a class="portfolio_video-link" href="#"><img src="icons/play.svg" alt="play_icons"></a></div>
+<div class="portfolio_video">
+  <a data-fancybox class="portfolio_video-link" href="https://youtu.be/GfZcHFDMtrE"><img src="icons/play.svg" alt="play_icons"></a>
+</div>
 
   <div class="container">
     <div class="portfolio_numbers">
@@ -175,6 +181,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="js/mixitup.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/main.js"></script>
   </body>
 </html>

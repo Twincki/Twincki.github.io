@@ -33,7 +33,7 @@ a
   width: 100%
   position: fixed
   z-index: 1
-  background-color: #fffffff9
+  background-color: #f3f3f3f5
   .header_inner
     padding-bottom: 29px
     display: flex
@@ -205,10 +205,12 @@ a
     column-count: 4
     column-gap: 23px
   &_item
-    img
+    position: relative
+    &-img
       width: 100%
       margin-bottom: 23px
   &_add
+    margin-top: 70px
     display: block
     font-weight: 700
     font-size: 14px
@@ -221,6 +223,33 @@ a
     padding: 42px 15px 41px
     background-color: #F6F8FA
     margin-bottom: 130px
+    text-decoration: none
+  a:hover
+    color: #242121
+
+.portfolio_item:hover
+  .portfolio_item-link
+  a:hover
+    color: #ffff
+    opacity: 1
+
+.portfolio_item-link
+  transition: all .3s
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  font-weight: 600
+  font-size: 14px
+  line-height: 14px
+  align-items: center
+  letter-spacing: 1.4px
+  background-color: rgba(76, 73, 73, 1)
+  border: 12px solid rgba(102, 99, 99, 1)
+  display: flex
+  justify-content: center
+  opacity: 0
 
 .blockquote
   max-width: 650px
@@ -265,15 +294,18 @@ a
     margin-bottom: 9px
     span
       display: block
-      font-weig ht: 400
+      font-weight: 400
       font-size: 14px
       line-height: 19px
       color: #333333
       font-family: "Open Sans", sans serif
 
+.portfolio_filter-btn
+  margin-right: 40px
+
 .portfolio_btn
   background-color: transparent
-  padding: 0
+  padding: 0 4px 5px
   border: none
   font-weight: 600
   font-size: 12px
@@ -281,3 +313,9 @@ a
   letter-spacing: 2px
   text-transform: uppercase
   color: #333333
+  outline: none
+  margin-right: 25px
+  transition: all .6s
+
+.mixitup-control-active
+  border-bottom: 2px solid #FCBB08
