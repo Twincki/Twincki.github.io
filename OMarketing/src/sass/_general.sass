@@ -3,12 +3,6 @@
   padding: 0 10px
   margin: 0 auto
 
-ul
-  list-style: none
-
-a
-  cursor: pointer
-
 .title
   align-self: flex-start
   font-weight: 700
@@ -489,6 +483,59 @@ a
   background-color: #ececec
   width: 142px
   border-radius: 20px
+
+.connection
+  padding: 145px 0 160px
+  background-image: url('../img/map_bg.jpg')
+  background-repeat: no-repeat
+  background-size: 50%
+  background-position: right 65%
+
+  &_title
+    margin-bottom: 80px
+  .form
+    max-width: 510px
+    textarea
+      padding-top: 37px
+      margin-bottom: 40px
+      min-height: 140px
+      border: none
+      border-bottom: 2px solid
+      resize: none
+      display: block
+      width: 100%
+    input
+      display: block
+      width: 100%
+      border: none
+      border-bottom: 2px solid #373A39
+      padding: 16px 5px
+      margin-bottom: 16px
+      font-weight: 700
+      font-size: 14px
+      color: #242121
+    input::placeholder,
+    textarea::placeholder
+      padding-left: 5px
+      line-height: 20px
+      font-weight: 300
+      font-size: 12px
+      line-height: 20px
+      letter-spacing: 3.70909px
+      color: #B8B8B8
+      text-transform: uppercase
+    &_button
+      padding: 17px 70px 15px
+      background: #242121
+      font-weight: 700
+      font-size: 11px
+      line-height: 13px
+      text-align: center
+      letter-spacing: 2px
+      color: #FFFFFF
+      font-family: "Montserrat", sans serif
+      cursor: pointer
+      border: none
 
 .footer
   &_top
