@@ -10,4 +10,4 @@
 
 Четвёртый сайт: [OMarketing](https://Twincki.github.io/OMarketing/src/)
 
-Пятый сайт: [OMarketing](https://Twincki.github.io/MySite/src/)
+Пятый сайт: [MySite](https://Twincki.github.io/MySite/src/)
