@@ -1,0 +1,194 @@
+body
+  background-color: rgb(32,32,35)
+
+.container
+  max-width: 430px
+  padding: 0 10px
+  margin: 0 auto
+
+.title
+  position: relative
+  font-size: 20px
+  font-family: 'M PLUS Rounded 1c', sans-serif
+  color: #ffff
+  padding-bottom: 10px
+  margin: 12px 0
+  text-decoration: underline 4px
+  text-underline-offset: 6px
+  text-decoration-color: #525252
+
+.header
+  height: 56px
+  top: 0
+  width: 100%
+  z-index: 2
+  position: fixed
+  backdrop-filter: blur(7px)
+  &_container
+    align-items: center
+    display: flex
+    justify-content: space-between
+    max-width: 630px
+    padding: 9px
+  &_item
+    &_1
+      margin-right: auto
+    &_link
+      margin: 9px
+      color: #ffff
+      font-size: 13px
+      &:hover
+        color: #ffff
+        border-bottom: 1px solid #ffffff
+    &_title
+      padding: 9px
+      margin: 0
+      padding-right: 30px
+      color: #ffff
+      font-weight: bold
+      font-size: 15px
+  &_btn
+    transition: all 0.3s
+    margin: 0 auto
+    border-radius: 7px
+    border: 0
+    height: 34px
+    width: 34px
+    background-color: #fbd38d
+    &:hover
+      background-color: #e6b35d
+  &_icon_title
+    transition: all 0.5s
+    font-size: 17px
+    color: #ffff
+    &:hover
+      transform: rotate(-140deg)
+  &_icon_btn
+    height: 100%
+    font-size: 17px
+  &_icon_link
+    margin-right: -5px
+    font-size: 13px
+    color: #ffff
+
+.container
+  .greeting
+    background-color: #313134cf
+    border-radius: 8px
+    color: #fff
+    line-height: 20px
+    font-size: 14px
+    text-align: center
+    padding: 11px
+    margin-top: 300px
+    margin-bottom: 25px
+
+.aboutMe
+  margin-bottom: 25px
+  &_inner
+    display: flex
+    justify-content: space-between
+    &-author
+      font-size: 36px
+      color: #ffffff
+      font-family: 'M PLUS Rounded 1c', sans-serif
+    &-authorPosition
+      color: #ffff
+      font-size: 13px
+    &-authorImg
+      img
+        width: 96px
+        height: 96px
+        border: 1.7px solid #ffff
+        border-radius: 50%
+
+.work
+  margin-bottom: 25px
+  &_text
+    font-size: 13px
+    color: #ffff
+    text-align: justify
+    text-indent: 1em
+    &_link
+      color: #ff63c3
+      &:hover
+        color: #ff63c3
+        border-bottom: 1px solid #ff63c3
+  &_button_inner
+    margin: 16px auto
+  &_button
+    display: block
+    margin: 0 auto
+    font-size: 14px
+    color: #202023
+    padding: 6px 14px
+    background-color: #81e6D9
+    border-radius: 6px
+    border: 0px
+    transition: all .5s
+    font-weight: bold
+    &:hover
+      background-color: #ff63c3
+      color: #ffff
+  &_icon_btn
+    padding: 0
+    margin: 0
+    margin-left: 10px
+    font-size: 10px
+.bio
+  margin-bottom: 25px
+  &_text
+    padding-bottom: 0.5em
+    display: block
+    font-size: 13px
+    color: #ffff
+    padding-left: 3.4em
+    text-indent: -3.4em
+    &_year
+      margin-right: 16px
+      font-weight: bold
+    &_link
+      color: #ff63c3
+      &:hover
+        color: #ff63c3
+        border-bottom: 1px solid #ff63c3
+
+.hobbies
+  margin-bottom: 25px
+  &_text
+    font-size: 13px
+    color: #fff
+    text-align: justify
+    text-indent: 1em
+
+.footer
+  height: 70px
+  &_text
+    padding: 35px 0
+    text-align: center
+    color: #6f6f71
+    font-size: 12px
+    font-weight: bold
+
+.web
+  &_inner
+    padding-left: 0
+    &_link
+      font-weight: bold
+      font-size: 13px
+      color: #81e6D9
+      &:hover
+        color: #81e6D9
+    &_button
+      padding: 4px 15px
+      transition: all .3s
+      background-color: rgba(0, 0, 0, 0)
+      border: 0
+      &:hover
+        border-radius: 5px
+        background-color: #81e6d928
+    img
+      width: 15px
+      height: 15px
+      margin-right: 8px
+      margin-bottom: 1px
