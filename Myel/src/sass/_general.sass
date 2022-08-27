@@ -1,7 +1,169 @@
 body
-  background-color: #ffffff
+  background-color: #F1F1F1
 
 .container
   max-width: 1300px
   padding: 0 10px
   margin: 0 auto
+
+.header
+  padding-top: 25px
+  padding-bottom: 25px
+  &_link
+    padding-top: 5px
+    font-size: 14px
+    line-height: 18px
+    color: #000000
+    &:hover
+      color: #000000
+  &_container
+    display: flex
+    justify-content: space-between
+
+.modern
+  &_inner
+    display: flex
+    justify-content: center
+
+.shop
+  margin: 100px auto
+  display: flex
+  justify-content: space-between
+  &_wrap
+    max-width: 890px
+  &_descr
+    font-size: 64px
+    line-height: 64px
+  &_logo
+    margin-top: 50px
+    font-size: 20px
+    line-height: 25px
+  &_link
+    font-size: 18px
+    line-height: 22px
+    color: #000000
+    &:hover
+      color: #000000
+
+.t-shirt
+  display: flex
+  justify-content: center
+
+.book
+  display: flex
+  justify-content: center
+
+.material
+  margin-top: 125px
+  margin-bottom: 50px
+  &_num-one
+    font-size: 30px
+    line-height: 45px
+    color: #000000
+  &_num-two
+    font-size: 36px
+    line-height: 45px
+    color: #000000
+  &_num-three
+    font-size: 36px
+    line-height: 45px
+    color: #000000
+  &_num-wrap
+    display: flex
+    justify-content: space-between
+  &_num
+    margin-right: 360px
+    margin-bottom: 72px
+    margin-top: 70px
+  &_img-wrap
+    display: flex
+    justify-content: space-around
+  &_slogan
+    font-weight: 400
+    font-size: 43px
+    line-height: 60px
+    max-width: 630px
+    margin-bottom: 85px
+
+.material_desc
+  margin-right: 100px
+  max-width: 300px
+  margin-bottom: 55px
+  &-wrap
+    display: flex
+    justify-content: space-between
+
+.material_link
+  font-size: 18px
+  line-height: 22px
+  color: #000000
+  &:hover
+    color: #000
+.choose
+  margin-top: 50px
+  margin-bottom: 90px
+  &-wrap
+    display: flex
+    justify-content: center
+
+.subscribe
+  margin-bottom: 105px
+  background-image: url(../img/subscribe.jpg)
+  min-width: 1440px
+  min-height: 545px
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  &_desc
+    font-size: 18px
+    line-height: 27px
+    color: #FFFFFF
+  &_desc-wrap
+    display: flex
+    justify-content: space-between
+    padding-top: 50px
+    padding-bottom: 180px
+  &_desc_title
+    max-width: 330px
+    font-weight: 400
+    font-size: 46px
+    line-height: 60px
+    color: #FFFFFF
+  &_desc_subtitle
+    font-size: 18px
+    line-height: 22px
+    color: #FFFFFF
+  &_form
+    position: relative
+  &_link
+    margin-left: -30px
+    width: 25px
+    height: 25px
+    &:hover
+      transition: .4s
+      opacity: 0.5
+
+  &_input
+    margin-top: 15px
+    text-align: center
+    font-size: 18px
+    width: 425px
+    padding-bottom: 5px
+    border: none
+    border-bottom: 1px solid #FFFF
+    background-color: transparent
+    outline: none
+    transition: 0.3s
+    color: #ffff
+    &::placeholder
+      color: #FFFF
+
+.subscribe_input:hover
+  &::placeholder
+    transition: .3s
+    color: #ffffff78
+
+.subscribe_input:focus
+  &::placeholder
+    transition: .3s
+    color: #ffffff00
