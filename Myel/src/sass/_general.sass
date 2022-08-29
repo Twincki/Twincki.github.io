@@ -24,6 +24,47 @@ body
   &_inner
     display: flex
     justify-content: center
+  &_wrap_1
+    background-image: url(../img/modernRing/model_1.jpg)
+    min-width: 485px
+    min-height: 630px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  &_desc_1
+    font-size: 14px
+    line-height: 18px
+    color: #FFFFFF
+    padding-top: 580px
+    padding-left: 30px
+  &_wrap_2
+    background-image: url(../img/modernRing/model_2.jpg)
+    min-width: 485px
+    min-height: 630px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  &_wrap_3
+    display: flex
+    background-image: url(../img/modernRing/model_3.jpg)
+    min-width: 485px
+    min-height: 630px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  &_desc_2
+    padding-top: 580px
+    padding-left: 30px
+    font-size: 14px
+    line-height: 18px
+    color: #FFFFFF
+  &_desc_3
+    height: 10px
+    margin-top: 500px
+    margin-left: 145px
+    font-size: 18px
+    line-height: 22px
+    color: #000000
 
 .shop
   margin: 100px auto
@@ -45,9 +86,96 @@ body
     &:hover
       color: #000000
 
+.slider
+  position: relative
+  &_title_gold
+    max-width: 310px
+    font-size: 18px
+    line-height: 22px
+    color: #000000
+  &_title_silver
+    font-size: 16px
+    line-height: 22px
+    color: #000000
+  &_desc_wrap
+    display: flex
+    justify-content: space-between
+  &_desc_price
+    font-size: 14px
+    line-height: 18px
+    color: #000000
+  &_desc_link
+    font-size: 14px
+    line-height: 18px
+    color: #000000
+    &:hover
+      transition: .3s
+      color: #0000008d
+    &:active
+
+.container_slider
+  max-width: 1240px
+  padding: 0 10px
+  margin: 0 auto
+  margin-bottom: 180px
+
+.slick
+  &-track
+    display: flex
+  &-list
+    overflow: hidden
+  &-arrow
+    border: none
+    font-size: 0
+    position: absolute
+    top: -85px
+    z-index: 10
+  &-prev
+    width: 25px
+    height: 25px
+    background: url(../icons/slider/arrow.svg) 0 0 /100% no-repeat
+    right: 50px
+  &-next
+    width: 25px
+    height: 25px
+    background: url(../icons/slider/arrow_right.svg) 0 0 /100% no-repeat
+    right: 0
+
+.arrivals_title
+  margin-bottom: 60px
+  font-size: 24px
+  line-height: 30px
+  color: #000000
+
 .t-shirt
   display: flex
   justify-content: center
+  &_1
+    background-image: url(../img/t-shirt/t-shirt_1.jpg)
+    min-width: 720px
+    min-height: 936px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  &_2
+    background-image: url(../img/t-shirt/t-shirt_2.jpg)
+    min-width: 720px
+    min-height: 936px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+  &_title
+    padding-top: 45px
+    padding-left: 50px
+    font-size: 44px
+    line-height: 60px
+    color: #000000
+  &_desc
+    padding-top: 750px
+    padding-left: 50px
+    font-size: 14px
+    line-height: 18px
+    color: #000000
 
 .book
   display: flex
