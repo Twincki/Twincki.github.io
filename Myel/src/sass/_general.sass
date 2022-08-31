@@ -217,6 +217,9 @@ body
     line-height: 42px
     padding-left: 20px
     color: #FFFFFF
+    &:hover
+      transition: .3s
+      color: #ffffffaf
 
 .slick-arrow-categories
   top: -40px
@@ -288,7 +291,8 @@ body
   line-height: 22px
   color: #000000
   &:hover
-    color: #000
+    transition: .3s
+    color: #0000007a
 .choose
   margin-top: 50px
   margin-bottom: 90px
@@ -328,6 +332,9 @@ body
     color: #000000
     margin-top: 685px
     margin-left: 50px
+    &:hover
+      transition: .3s
+      color: #0000007a
 
 .subscribe
   margin-bottom: 105px
@@ -390,3 +397,38 @@ body
   &::placeholder
     transition: .3s
     color: #ffffff00
+
+.footer
+  background-color: #F1F1F1
+  &_box
+    display: flex
+    justify-content: space-between
+  &_wrap
+    display: flex
+    align-items: stretch
+    flex-direction: row
+  &_inner
+    display: flex
+    flex-direction: column
+    padding: 0
+    &:not(:last-child)
+      margin-right: 140px
+  &_link
+    font-size: 16px
+    line-height: 20px
+    color: #000000
+  &_link_title
+    font-size: 18px
+    line-height: 25px
+    color: #000000
+    margin-bottom: 21px
+  &_item
+    margin-bottom: 10px
+    max-width: 135px
+  &_item_title
+    margin-bottom: 21px
+  &_link_title_none
+    color: #00000000
+  &_item_title-social
+    margin-top: 88px
+    margin-bottom: 20px
