@@ -17,6 +17,8 @@
 
 Проект был создан по одному из курсов верстки **'Udemy'** :clap:
 
+Если вас интересует макет :point_right: [здесь](https://www.figma.com/file/dmDxKhqtcdB2tQagsgFz8U/WordPress2)
+
 О проекте:
 
 - Лендинг
@@ -30,7 +32,9 @@
 
 ![SakaAgency](Material_for_description/Gif/SakaAgency.gif)
 
-Проект был выполнен для закрепления знаний. Выполнен с бесплатного макета **Figma**. Если вас интересует макет :point_right: [здесь](https://www.figma.com/file/QIETjlMfRC7ZfZ1jCG6nGe/Digital-Agency?node-id=0%3A1)
+Проект был выполнен для закрепления знаний. Выполнен с бесплатного макета **Figma**.
+
+Если вас интересует макет :point_right: [здесь](https://www.figma.com/file/QIETjlMfRC7ZfZ1jCG6nGe/Digital-Agency?node-id=0%3A1)
 
 О проекте:
 
@@ -45,7 +49,17 @@
 
 ![Uber](Material_for_description/Gif/Uber.gif)
 
-На данном проекте я получил новые знания, в частности научился анимировать и использовать позиционирование. Тренировался в использовании flex. Если вас интересует макет :point_right: [здесь](<https://www.figma.com/file/idD8FvhA1hC8hc98hE0YSl/UBER_course-(Copy)?node-id=0%3A1>)
+О проекте:
+
+- Лендинг
+- Использовался html, sass, JavaScript
+- Адаптирование под все устройства
+
+На данном проекте я получил новые знания, в частности научился анимировать, использовать позиционирование, применять модуль sass. Адаптировать проект под разные устройства.
+
+Если вас интересует макет :point_right: [здесь](<https://www.figma.com/file/idD8FvhA1hC8hc98hE0YSl/UBER_course-(Copy)?node-id=0%3A1>)
+
+> Верстка для меня была простой на этом проекте, так же анимация мне далась легко. Адаптация под разные устройства не показалась сложной, но доставило не мало трудностей.
 
 ## :us: [OMarketing](https://Twincki.github.io/OMarketing/src/)
 
