@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pixel Dog
+* source:	https://sketchfab.com/3d-models/pixel-dog-5e0a74be3c0e48ca92a6ea6acc73d3a4
+* author:	Vince1p (https://sketchfab.com/Vince1p)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pixel Dog" (https://sketchfab.com/3d-models/pixel-dog-5e0a74be3c0e48ca92a6ea6acc73d3a4) by Vince1p (https://sketchfab.com/Vince1p) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
