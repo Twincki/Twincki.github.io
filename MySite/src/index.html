@@ -31,7 +31,7 @@
     <div class="container_3d">
       <div class="content_3d">
         <div class="card">
-            <model-viewer class="card_model" loading="eager" style="background-color: rgba(0,0,0,0);" shadow-intensity="1" src="obj/obj1/scene.gltf" alt="3d img1" autoplay rotate camera-controls touch-action="pan-y" camera-orbit="80deg 70deg 4m"><model-viewer>
+            <model-viewer class="card_model" loading="eager" style="background-color: rgba(0,0,0,0);" shadow-intensity="1" src="3d model/computer/scene.gltf" alt="3d img1" autoplay rotate   camera-controls interpolation-decay="200"  disable-zoom touch-action="pan-y" camera-orbit="0deg 60deg 8m"><model-viewer>
         </div>
       </div>
     </div>
@@ -106,6 +106,24 @@
     <p class="footer_text">© 2022 Alexey Selyutin. All Rights Reserved.</p>
   </div>
 </footer>
+
+<script>
+  (() => {
+    const modelViewer = document.querySelector('#orbit-demo');
+    const orbitCycle = [
+      '45deg 55deg 4m',
+      '-60deg 110deg 2m',
+      modelViewer.cameraOrbit
+    ];
+  
+    setInterval(() => {
+      const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
+      modelViewer.cameraOrbit =
+          orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
+    }, 3000);
+  })();
+  </script>
+
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
