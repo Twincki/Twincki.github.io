@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Alexey Seliyutin</title>
   </head>
+
   <body>
+
     <header class="header">
       <nav class="container header_container">
         <div class="header_item"><a class="header_title_link" href=""><h1 class="header_item_title"></s><ion-icon class="header_icon_title" name="pizza"></ion-icon>Alexey Selyutin</h1></a></div>
@@ -31,7 +33,7 @@
     <div class="container_3d">
       <div class="content_3d">
         <div class="card">
-            <model-viewer class="card_model" loading="eager" style="background-color: rgba(0,0,0,0);" shadow-intensity="1" src="3d model/computer/scene.gltf" alt="3d img1" autoplay rotate   camera-controls interpolation-decay="200"  disable-zoom touch-action="pan-y" camera-orbit="0deg 60deg 8m"><model-viewer>
+            <model-viewer class="card_model" loading="eager" style="background-color: rgba(0,0,0,0);" shadow-intensity="1" src="3d model/computer/scene.gltf" alt="3d img1" autoplay rotate   camera-controls disable-zoom touch-action="pan-y" camera-orbit="0deg 60deg 8m"><model-viewer>
         </div>
       </div>
     </div>
@@ -66,7 +68,7 @@
           
         </p>
         <div class="work_button_inner">
-          <button class="work_button">My portfolio<ion-icon class="work_icon_btn" name="chevron-forward-outline"></ion-icon></button>
+          <a href="https://github.com/Twincki/Twincki.github.io" target="_blank"><button class="work_button">My portfolio<ion-icon class="work_icon_btn" name="chevron-forward-outline"></ion-icon></button></a>
         </div>
       </div>
     </section>
@@ -106,24 +108,6 @@
     <p class="footer_text">© 2022 Alexey Selyutin. All Rights Reserved.</p>
   </div>
 </footer>
-
-<script>
-  (() => {
-    const modelViewer = document.querySelector('#orbit-demo');
-    const orbitCycle = [
-      '45deg 55deg 4m',
-      '-60deg 110deg 2m',
-      modelViewer.cameraOrbit
-    ];
-  
-    setInterval(() => {
-      const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
-      modelViewer.cameraOrbit =
-          orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
-    }, 3000);
-  })();
-  </script>
-
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

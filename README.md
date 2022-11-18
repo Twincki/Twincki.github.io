@@ -13,7 +13,7 @@
 
 ## :ru: [Wordpress](https://Twincki.github.io/wordpress/src/)
 
-![wordpress](Material_for_description/Gif/Wordpress.gif)
+![wordpress](Material_for_description/img/Wordpress.jpg)
 
 Проект был создан по одному из курсов верстки **'Udemy'** :clap:
 
