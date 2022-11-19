@@ -30,7 +30,7 @@
 
 ## :us: [SakaAgency](https://Twincki.github.io/SakaAgency/src/)
 
-![SakaAgency](Material_for_description/Gif/SakaAgency.gif)
+![SakaAgency](Material_for_description/img/SakaAgency.jpg)
 
 Проект был выполнен для закрепления знаний. Выполнен с бесплатного макета **Figma**.
 
@@ -47,7 +47,7 @@
 
 ## :ru: [Uber](https://Twincki.github.io/Uber/src/)
 
-![Uber](Material_for_description/Gif/Uber.gif)
+![Uber](Material_for_description/img/Uber.jpg)
 
 О проекте:
 
@@ -63,6 +63,25 @@
 
 ## :us: [OMarketing](https://Twincki.github.io/OMarketing/src/)
 
+![OMarketing](Material_for_description/img/OMarketing.jpg)
+
+О проекте:
+
+- Лендинг
+- Использовался html, sass, JavaScript + библиотеки для слайдеров
+
+Проект выполнялся по курсу SW.Band [Вадим Прокопчук]. Научился многому, а в частности создавать слайдеры, фото коллажи разных форм, использовал новые анимации и быстрые переходы по странице.
+
+Если вас интересует макет :point_right: [здесь](https://www.figma.com/file/Ha9Mr6NqIGrCOolgpDImeg/%5BSW.BAND%5D-O-marketing?node-id=0%3A1&t=NFWryPdUjvb1hqNu-0)
+
+> Один из самых интересных макетов которые я верстал, многому научился и закрепил знания.
+
+---
+
 ## :us: [MySite](https://Twincki.github.io/MySite/src/)
 
+![MySite](Material_for_description/img/MySite.jpg)
+
 ## :us: [Myel](https://Twincki.github.io/Myel/src/)
+
+![Myel](Material_for_description/img/Myel.jpg)
