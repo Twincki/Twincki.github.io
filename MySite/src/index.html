@@ -1,118 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Roboto:wght@100;300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="css/style.min.css" />
-    <title>Alexey Seliyutin</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Roboto:wght@100;300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Alexey Seliyutin</title>
+</head>
 
-    <header class="header">
-      <nav class="container header_container">
-        <div class="header_item"><a class="header_title_link" href=""><h1 class="header_item_title"></s><ion-icon class="header_icon_title" name="pizza"></ion-icon>Alexey Selyutin</h1></a></div>
-          <div class="header_item header_item_1">
-          <a class="header_item_link" href="">Works</a>
-          <a class="header_item_link" href="">Posts</a>
-          <ion-icon class="header_icon_link" name="logo-github"></ion-icon><a class="header_item_link" href="https://vk.com/sakuraplakala" target="_blank">Source</a>
-          </div>
-        <div class="header_item"><button class="header_btn"><ion-icon class="header_icon_btn" name="sunny-outline"></ion-icon></button></div>
-      </nav>
-    </header>
+<body>
 
-    <div class="container_3d">
-      <div class="content_3d">
-        <div class="card">
-            <model-viewer class="card_model" loading="eager" style="background-color: rgba(0,0,0,0);" shadow-intensity="1" src="3d model/computer/scene.gltf" alt="3d img1" autoplay rotate   camera-controls disable-zoom touch-action="pan-y" camera-orbit="0deg 60deg 8m"><model-viewer>
-        </div>
+  <header class="header" id="header">
+    <nav class="container header_container">
+      <div class="header_item"><a class="header_title_link" href="">
+          <h1 class="header_item_title"></s><ion-icon class="header_icon_title" name="pizza"></ion-icon>Alexey Selyutin
+          </h1>
+        </a></div>
+      <div class="header_item header_item_1">
+        <a class="header_item_link" href="">Works</a>
+        <a class="header_item_link" href="">Posts</a>
+        <ion-icon class="header_icon_link" name="logo-github"></ion-icon><a class="header_item_link"
+          href="https://vk.com/sakuraplakala" target="_blank">Source</a>
+      </div>
+      <div class="header_item"><button class="header_btn"><ion-icon class="header_icon_btn"
+            name="sunny-outline"></ion-icon></button></div>
+    </nav>
+  </header>
+
+  <div class="container_3d">
+    <div class="content_3d">
+      <div class="card">
+        <model-viewer id="model-3d" class="card_model" loading="eager" style="background-color: rgba(0,0,0,0);"
+          shadow-intensity="1" src="3d model/computer/scene.gltf" alt="3d img1" autoplay rotate camera-controls
+          disable-zoom touch-action="pan-y" camera-orbit="0deg 60deg 8m"><model-viewer>
       </div>
     </div>
+  </div>
 
 
+  <div class="container">
+    <p class="greeting">Hello, I'm a developer based in Russia!</p>
+  </div>
+
+  <section class="aboutMe">
     <div class="container">
-      <p class="greeting">Hello, I'm a developer based in Russia!</p>
+      <div class="aboutMe_inner">
+        <div>
+          <h2 class="aboutMe_inner-author">Alexey Selyutin</h2>
+          <h4 class="aboutMe_inner-authorPosition">
+            Digital Craftsman ( Artist / Developer / Designer )
+          </h4>
+        </div>
+        <div class="aboutMe_inner-authorImg">
+          <img src="icons/alexey_selyiutin.png" alt="Alexey Seliyutin" />
+        </div>
+      </div>
     </div>
+  </section>
 
-    <section class="aboutMe">
-      <div class="container">
-        <div class="aboutMe_inner">
-          <div>
-            <h2 class="aboutMe_inner-author">Alexey Selyutin</h2>
-            <h4 class="aboutMe_inner-authorPosition">
-              Digital Craftsman ( Artist / Developer / Designer )
-            </h4>
-          </div>
-          <div class="aboutMe_inner-authorImg">
-            <img src="icons/alexey_selyiutin.png" alt="Alexey Seliyutin" />
-          </div>
-        </div>
+  <section class="work">
+    <div class="container">
+      <h2 class="title work_title">Work</h2>
+      <p class="work_text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum nostrum odio obcaecati molestias vero,
+        enim accusamus laudantium atque, doloribus similique ratione incidunt a sint et? Suscipit expedita recusandae
+        voluptatem. <a class="work_text_link" href="#">trialLink</a>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis illo, debitis iusto vitae placeat inventore
+        fugit nam harum nesciunt omnis sapiente molestias possimus natus fuga id obcaecati molestiae dicta earum?
+
+      </p>
+      <div class="work_button_inner">
+        <a href="https://github.com/Twincki/Twincki.github.io" target="_blank"><button class="work_button">My
+            portfolio<ion-icon class="work_icon_btn" name="chevron-forward-outline"></ion-icon></button></a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="work">
-      <div class="container">
-        <h2 class="title work_title">Work</h2>
-        <p class="work_text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum nostrum odio obcaecati molestias vero, enim accusamus laudantium atque, doloribus similique ratione incidunt a sint et? Suscipit expedita recusandae voluptatem. <a class="work_text_link" href="#">trialLink</a>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis illo, debitis iusto vitae placeat inventore fugit nam harum nesciunt omnis sapiente molestias possimus natus fuga id obcaecati molestiae dicta earum?
-          
-        </p>
-        <div class="work_button_inner">
-          <a href="https://github.com/Twincki/Twincki.github.io" target="_blank"><button class="work_button">My portfolio<ion-icon class="work_icon_btn" name="chevron-forward-outline"></ion-icon></button></a>
-        </div>
-      </div>
-    </section>
+  <section class="bio">
+    <div class="container">
+      <h2 class="title bio_title">Bio</h2>
+      <div class="bio_text"><span class="bio_text_year">1997</span>Born in <a class="bio_text_link"
+          href="http://adminzhel.ru/gorod/o-gorode/zheleznogorsk-segodnya/" target="_blank">Zheleznogorsk</a> (Kursk
+        region), Russia.</div>
+      <div class="bio_text"><span class="bio_text_year">2017</span>He completed his studies at a technical school <a
+          class="bio_text_link" href="https://zhgmk.ru/" target="_blank">(ZhGMK)</a> as a tower crane operator.</div>
+      <div class="bio_text"><span class="bio_text_year">2018</span>Finished military service in the army, in the
+        aerospace forces of the Russian Federation.</div>
+      <div class="bio_text"><span class="bio_text_year">2020</span>He began to work anywhere and where they would take
+        him.</div>
+      <div class="bio_text"><span class="bio_text_year">2022</span>Stopped working and started learning html , css and
+        javaScript</div>
+      </ul>
+    </div>
+  </section>
 
-    <section class="bio">
-      <div class="container">
-        <h2 class="title bio_title">Bio</h2>
-        <div class="bio_text"><span class="bio_text_year">1997</span>Born in <a class="bio_text_link" href="http://adminzhel.ru/gorod/o-gorode/zheleznogorsk-segodnya/"target="_blank">Zheleznogorsk</a>  (Kursk region), Russia.</div>
-        <div class="bio_text"><span class="bio_text_year">2017</span>He completed his studies at a technical school <a class="bio_text_link" href="https://zhgmk.ru/" target="_blank">(ZhGMK)</a> as a tower crane operator.</div>
-        <div class="bio_text"><span class="bio_text_year">2018</span>Finished military service in the army, in the aerospace forces of the Russian Federation.</div>
-        <div class="bio_text"><span class="bio_text_year">2020</span>He began to work anywhere and where they would take him.</div>
-        <div class="bio_text"><span class="bio_text_year">2022</span>Stopped working and started learning html , css and javaScript</div>
-        </ul>
-      </div>
-    </section>
+  <section class="hobbies">
+    <div class="container">
+      <h2 class="title hobbies_title">I ♥</h2>
+      <p class="hobbies_text">Art, Music, Drawing, Playing guitars, Photography, Photo processing, Archery, Fishing, 3d
+        design, Video editing.
+      </p>
+    </div>
+  </section>
 
-    <section class="hobbies">
-      <div class="container">
-        <h2 class="title hobbies_title">I ♥</h2>
-          <p class="hobbies_text">Art, Music, Drawing, Playing guitars, Photography, Photo processing, Archery, Fishing, 3d design, Video editing.
-        </p>
-      </div>
-    </section>
+  <section class="web">
+    <div class="container">
+      <h2 class="title web_title">On the web</h2>
+      <ul class="web_inner">
+        <li class="web_inner_items"><button class="web_inner_button"><a class="web_inner_link"
+              href="https://github.com/Twincki" target="_blank"><span><img src="icons/git.png"
+                  alt="github"></span>@Twincki</a></button></li>
+        <li class="web_inner_items"><button class="web_inner_button"><a class="web_inner_link"
+              href="https://vk.com/sakuraplakala" target="_blank"><span><img src="icons/vk.png"
+                  alt="vk"></span>@sakuraplakala</a></button></li>
+      </ul>
+    </div>
+  </section>
 
-<section class="web">
-  <div class="container">
-<h2 class="title web_title">On the web</h2>
-<ul class="web_inner">
-  <li class="web_inner_items"><button class="web_inner_button"><a class="web_inner_link" href="https://github.com/Twincki" target="_blank"><span><img src="icons/git.png" alt="github"></span>@Twincki</a></button></li>
-  <li class="web_inner_items"><button class="web_inner_button"><a class="web_inner_link" href="https://vk.com/sakuraplakala" target="_blank"><span><img src="icons/vk.png" alt="vk"></span>@sakuraplakala</a></button></li> 
-</ul>
-  </div>
-</section>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer_text">© 2023 Alexey Selyutin. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="js/main.js"></script>
 
-<footer class="footer">
-  <div class="container">
-    <p class="footer_text">© 2022 Alexey Selyutin. All Rights Reserved.</p>
-  </div>
-</footer>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script> src="https:/cdn.rawgit.com/mrdoob/three.js/master/exampels/js/loaders/GLTFLoader.js"</script>
-    <script src="js/three.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
