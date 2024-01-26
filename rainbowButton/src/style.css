@@ -19,6 +19,7 @@ body {
   align-items: center;
 }
 .outer {
+  transition: 1s;
   position: relative;
   margin: 0 50px;
 }
@@ -90,6 +91,7 @@ body {
 }
 
 .outer:hover {
+  transition: 1s;
   background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
   animation: rotate 1.5s linear infinite;
 }
