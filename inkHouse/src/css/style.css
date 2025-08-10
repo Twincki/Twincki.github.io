@@ -1,14 +1,48 @@
 .container {
-  width: 1100px;
-  padding: 0 10px;
+  width: 1110px;
   margin: 0 auto;
+}
+
+.button {
+  width: 310px;
+  height: 65px;
+  background-color: rgb(219, 247, 226);
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: rgb(89, 141, 102);
+  color: #ffffff;
+}
+.button:focus {
+  color: #000;
+  background-color: rgb(219, 247, 226);
+  border: 1px solid rgb(55, 107, 68);
+}
+.button:active {
+  background-color: rgb(55, 107, 68);
+  color: #ffffff;
+}
+.button-square {
+  font-size: 20px;
+  color: rgb(89, 141, 102);
+  border: 1px solid rgb(89, 141, 102);
+  background-color: rgba(28, 28, 28, 0);
+}
+.button-square:focus {
+  color: rgb(55, 107, 68);
+  background-color: rgb(219, 247, 226);
+  border: 1px solid rgb(89, 141, 102);
+}
+.button-square:active {
+  background-color: rgb(55, 107, 68);
+  color: #ffffff;
 }
 
 .header {
   background-color: rgb(219, 247, 226);
 }
 
-.header__inner {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-self: center;
@@ -57,11 +91,6 @@
   align-items: center;
 }
 
-.promo__img {
-  max-width: 620px;
-  min-height: 540px;
-}
-
 .promo__inner {
   display: flex;
   align-items: start;
@@ -83,10 +112,70 @@
 .promo__inner-button {
   width: 220px;
   height: 65px;
-  font-size: 20px;
-  color: rgb(89, 141, 102);
-  border: 1px solid rgb(89, 141, 102);
-  background-color: rgba(28, 28, 28, 0);
+}
+
+.promo__img {
+  max-width: 620px;
+  min-height: 540px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.products__title {
+  font-size: 40px;
+  font-weight: 500;
+}
+.products__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.products__button {
+  width: 126px;
+  height: 43px;
+  font-size: 17px;
+  border-radius: 25px;
+  background-color: rgb(219, 247, 226);
+  transition: all 0.2s;
+}
+
+.products {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.product__card {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  max-width: 350px;
+  max-height: 730px;
+  display: flex;
+  padding: 20px 20px 30px;
+  background-color: rgb(219, 247, 226);
+}
+.product__card-author {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 100;
+}
+.product__card-name {
+  padding-top: 10px;
+  font-size: 30px;
+}
+.product__card-details {
+  padding-top: 8px;
+}
+.product__card-price {
+  padding-top: 30px;
+}
+.product__card-button {
+  margin-top: 20px;
 }
 
 * {
@@ -108,4 +197,8 @@ ul {
 
 html {
   scroll-behavior: smooth;
+}
+
+button {
+  border: none;
 }/*# sourceMappingURL=style.css.map */
