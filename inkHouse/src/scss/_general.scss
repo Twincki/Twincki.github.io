@@ -6,6 +6,7 @@
 .button {
   width: 310px;
   height: 65px;
+  font-size: 20px;
   background-color: rgb(219, 247, 226);
   transition: all 0.2s;
   &:hover {
@@ -22,7 +23,6 @@
     color: #ffffff;
   }
   &-square {
-    font-size: 20px;
     color: rgba(89, 141, 102, 1);
     border: 1px solid rgba(89, 141, 102, 1);
     background-color: rgba(28, 28, 28, 0);
@@ -183,5 +183,70 @@
   }
   &-button {
     margin-top: 20px;
+  }
+}
+
+// new
+
+.new__section {
+  margin-top: 70px;
+  background-image: url(../img/new/pic_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  min-height: 574px;
+}
+
+.new {
+  margin-top: 70px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  &__wrapper {
+    max-width: 540px;
+  }
+  &__title {
+    margin-top: 70px;
+    font-size: 40px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    &::before {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 80px;
+      background-image: url(../icons/Star\ 2.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+    }
+  }
+  &__text {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  &__button {
+    width: 257px;
+    height: 65px;
+    margin-top: 40px;
+    background-color: rgba(238, 219, 109, 1);
+    &:hover {
+      background-color: rgba(250, 235, 151, 1);
+      color: #000;
+    }
+    &:focus {
+      background-color: rgba(250, 235, 151, 1);
+      border: 1px solid rgba(217, 185, 73, 1);
+      color: #000;
+    }
+    &:active {
+      color: #000;
+      background-color: rgba(217, 185, 73, 1);
+    }
   }
 }

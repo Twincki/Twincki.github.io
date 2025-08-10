@@ -6,6 +6,7 @@
 .button {
   width: 310px;
   height: 65px;
+  font-size: 20px;
   background-color: rgb(219, 247, 226);
   transition: all 0.2s;
 }
@@ -23,7 +24,6 @@
   color: #ffffff;
 }
 .button-square {
-  font-size: 20px;
   color: rgb(89, 141, 102);
   border: 1px solid rgb(89, 141, 102);
   background-color: rgba(28, 28, 28, 0);
@@ -176,6 +176,69 @@
 }
 .product__card-button {
   margin-top: 20px;
+}
+
+.new__section {
+  margin-top: 70px;
+  background-image: url(../img/new/pic_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  min-height: 574px;
+}
+
+.new {
+  margin-top: 70px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.new__wrapper {
+  max-width: 540px;
+}
+.new__title {
+  margin-top: 70px;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.new__title::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: url(../icons/Star\ 2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.new__text {
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 200;
+  color: #ffffff;
+}
+.new__button {
+  width: 257px;
+  height: 65px;
+  margin-top: 40px;
+  background-color: rgb(238, 219, 109);
+}
+.new__button:hover {
+  background-color: rgb(250, 235, 151);
+  color: #000;
+}
+.new__button:focus {
+  background-color: rgb(250, 235, 151);
+  border: 1px solid rgb(217, 185, 73);
+  color: #000;
+}
+.new__button:active {
+  color: #000;
+  background-color: rgb(217, 185, 73);
 }
 
 * {
