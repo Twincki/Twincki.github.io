@@ -38,19 +38,7 @@
   }
 }
 
-// header
-
-.header {
-  background-color: rgb(219, 247, 226);
-}
-
-.header__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-self: center;
-}
-
-.header__logo {
+.logo {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -63,6 +51,18 @@
     font-size: 20px;
     font-weight: 700;
   }
+}
+
+// header --------------
+
+.header {
+  background-color: rgb(219, 247, 226);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
 }
 
 .header__menu {
@@ -87,7 +87,7 @@
   }
 }
 
-// promo
+// promo --------------
 
 .promo__wrapper {
   display: flex;
@@ -123,7 +123,7 @@
   min-height: 540px;
 }
 
-// products
+// products --------------
 
 .products {
   display: flex;
@@ -150,7 +150,7 @@
   }
 }
 
-// products-card
+// products-card ---------
 
 .products {
   flex-wrap: wrap;
@@ -180,21 +180,26 @@
   }
   &-price {
     padding-top: 30px;
+    font-size: 24px;
+    color: rgba(89, 141, 102, 1);
   }
   &-button {
     margin-top: 20px;
   }
 }
 
-// new
+// new -------------------
 
 .new__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   margin-top: 70px;
   background-image: url(../img/new/pic_background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 1440px;
   min-height: 574px;
 }
 
@@ -248,5 +253,85 @@
       color: #000;
       background-color: rgba(217, 185, 73, 1);
     }
+  }
+}
+
+// team
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 70px;
+  gap: 30px;
+  &__title {
+    margin-top: 124px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  &__text {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  &__photo {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+  }
+}
+
+// footer
+
+.footer {
+  margin-top: 70px;
+  background-color: rgb(219, 247, 226);
+  &__wrapper {
+    padding: 23px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    &-tel {
+      font-size: 20px;
+      margin-top: 41px;
+      margin-bottom: 8px;
+    }
+  }
+  &__columns {
+    display: flex;
+    gap: 58px;
+    flex-grow: 1;
+    justify-content: start;
+    margin-left: 115px;
+  }
+  &__column {
+    min-width: 84px;
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  &__list {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  &__link {
+    font-size: 18px;
+    color: rgba(134, 146, 139, 1);
+  }
+  &__social {
+    min-width: 132px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  &__copyright {
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: rgba(134, 146, 139, 1);
   }
 }

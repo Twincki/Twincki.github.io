@@ -38,6 +38,21 @@
   color: #ffffff;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-icon {
+  width: 35px;
+  height: 35px;
+}
+.logo-link {
+  color: rgb(89, 141, 102);
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .header {
   background-color: rgb(219, 247, 226);
 }
@@ -46,21 +61,6 @@
   display: flex;
   justify-content: space-between;
   align-self: center;
-}
-
-.header__logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.header__logo-icon {
-  width: 35px;
-  height: 35px;
-}
-.header__logo-link {
-  color: rgb(89, 141, 102);
-  font-size: 20px;
-  font-weight: 700;
 }
 
 .header__menu {
@@ -173,18 +173,23 @@
 }
 .product__card-price {
   padding-top: 30px;
+  font-size: 24px;
+  color: rgb(89, 141, 102);
 }
 .product__card-button {
   margin-top: 20px;
 }
 
 .new__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   margin-top: 70px;
   background-image: url(../img/new/pic_background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 1440px;
   min-height: 574px;
 }
 
@@ -239,6 +244,82 @@
 .new__button:active {
   color: #000;
   background-color: rgb(217, 185, 73);
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 70px;
+  gap: 30px;
+}
+.team__title {
+  margin-top: 124px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.team__text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.team__photo {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.footer {
+  margin-top: 70px;
+  background-color: rgb(219, 247, 226);
+}
+.footer__wrapper {
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer__contact-tel {
+  font-size: 20px;
+  margin-top: 41px;
+  margin-bottom: 8px;
+}
+.footer__columns {
+  display: flex;
+  gap: 58px;
+  flex-grow: 1;
+  justify-content: start;
+  margin-left: 115px;
+}
+.footer__column {
+  min-width: 84px;
+}
+.footer__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer__list {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer__link {
+  font-size: 18px;
+  color: rgb(134, 146, 139);
+}
+.footer__social {
+  min-width: 132px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.footer__copyright {
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: rgb(134, 146, 139);
 }
 
 * {
